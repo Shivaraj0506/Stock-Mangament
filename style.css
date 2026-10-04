@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/free-photo/stock-market-economy-investment-financial-concept_53876-127728.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.95);
+    padding: 30px 25px 40px 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+form input, form button, form select {
+    padding: 8px;
+    font-size: 14px;
+}
+
+form button {
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button:hover {
+    background: #1a222b;
+}
+
+#search {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fafafa;
+    margin-bottom: 18px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+th {
+    background: #eaf2fb;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.delete-btn {
+    color: #fff;
+    background: #e74c3c;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.delete-btn:hover {
+    background: #b93222;
+}
+
+#bill-table {
+    margin-top: 18px;
+}
+
+#bill-table tfoot td {
+    font-size: 16px;
+    background: #f6fafd;
+    font-weight: bold;
+}
